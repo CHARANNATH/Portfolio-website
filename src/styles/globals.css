@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply bg-white dark:bg-slate-900 text-gray-900 dark:text-gray-100 font-sans transition-colors duration-300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+}
+
+/* Remove default link styling and apply custom */
+a {
+    @apply transition-colors duration-200;
+}
+
+.container {
+    @apply mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.section {
+    @apply py-16 md:py-24 lg:py-32;
+}
+
+/* Gradient backgrounds */
+.bg-gradient-primary {
+    @apply bg-gradient-to-r from-blue-600 to-purple-600;
+}
+
+.dark .bg-gradient-primary {
+    @apply bg-gradient-to-r from-blue-500 to-purple-500;
+}
+
+/* Card styling */
+.card {
+    @apply bg-white dark:bg-slate-800 rounded-lg shadow-md dark:shadow-lg transition-all duration-300 hover:shadow-lg dark:hover:shadow-xl;
+}
+
+.card-hover {
+    @apply hover:-translate-y-1 hover:shadow-lg dark:hover:shadow-lg transition-all duration-300;
+}
+
+/* Buttons */
+.btn-primary {
+    @apply px-6 py-3 bg-blue-600 dark:bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors duration-200 cursor-pointer;
+}
+
+.btn-secondary {
+    @apply px-6 py-3 bg-gray-200 dark:bg-slate-700 text-gray-900 dark:text-white font-semibold rounded-lg hover:bg-gray-300 dark:hover:bg-slate-600 transition-colors duration-200 cursor-pointer;
+}
+
+.btn-outline {
+    @apply px-6 py-3 border-2 border-blue-600 dark:border-blue-400 text-blue-600 dark:text-blue-400 font-semibold rounded-lg hover:bg-blue-50 dark:hover:bg-slate-800 transition-colors duration-200 cursor-pointer;
+}
+
+/* Badge styling */
+.badge {
+    @apply inline-block px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-sm font-semibold rounded-full;
+}
+
+/* Section headings */
+.section-title {
+    @apply text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16;
+}
+
+.section-subtitle {
+    @apply text-lg text-gray-600 dark:text-gray-400 text-center;
+}
+
+/* Smooth transitions */
+.transition-smooth {
+    @apply transition-all duration-300 ease-in-out;
+}
