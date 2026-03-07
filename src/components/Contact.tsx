@@ -26,27 +26,22 @@ const Contact: React.FC = () => {
         {
             name: 'Email',
             icon: Mail,
-            href: 'mailto:charannath.chowdary@example.com',
+            href: 'mailto:unnamcharannathchowdary@gmail.com',
             color: 'hover:text-red-600 dark:hover:text-red-400',
         },
         {
             name: 'GitHub',
             icon: Github,
-            href: 'https://github.com/charannath',
+            href: 'https://github.com/CHARANNATH',
             color: 'hover:text-gray-800 dark:hover:text-gray-200',
         },
         {
             name: 'LinkedIn',
             icon: Linkedin,
-            href: 'https://linkedin.com/in/charannath',
+            href: 'https://www.linkedin.com/in/charannathchowdary-unnam/',
             color: 'hover:text-blue-600 dark:hover:text-blue-400',
         },
-        {
-            name: 'Twitter',
-            icon: Twitter,
-            href: 'https://twitter.com/charannath',
-            color: 'hover:text-blue-400 dark:hover:text-blue-300',
-        },
+        
     ];
 
     return (
