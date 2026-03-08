@@ -14,8 +14,8 @@ export const projects = [
     description: "A logical pyramid-style puzzle game implemented in the browser with interactive UI and dynamic gameplay. Test your pattern recognition and problem-solving skills.",
     techStack: ["React", "CSS", "JavaScript"],
     image: "/assets/Pyramid_Game.png",
-    liveDemo: "https://charannath-pyramid-game.github.io",
-    githubRepo: "https://github.com/charannath/pyramid-game",
+    liveDemo: "https://charannath.github.io/Pyramid-Game/",
+    githubRepo: "https://github.com/CHARANNATH/Pyramid-Game",
   },
   {
     id: 3,

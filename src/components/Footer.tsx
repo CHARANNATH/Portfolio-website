@@ -14,9 +14,9 @@ const Footer: React.FC = () => {
     ];
 
     const socialLinks = [
-        { icon: Github, href: 'https://github.com/charannath', label: 'GitHub' },
-        { icon: Linkedin, href: 'https://linkedin.com/in/charannath', label: 'LinkedIn' },
-        { icon: Mail, href: 'mailto:charannath.chowdary@example.com', label: 'Email' },
+        { icon: Github, href: 'https://github.com/CHARANNATH', label: 'GitHub' },
+        { icon: Linkedin, href: 'https://www.linkedin.com/in/charannathchowdary-unnam/', label: 'LinkedIn' },
+        { icon: Mail, href: 'mailto:unnamcharannathchowdary@gmail.com', label: 'Email' },
     ];
 
     return (

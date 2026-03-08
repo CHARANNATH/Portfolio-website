@@ -18,7 +18,7 @@ export const skillsByCategory: Skill[] = [
   },
   {
     category: "Tools & Platforms",
-    skills: ["Git", "GitHub", "VS Code", "Infosys DevOps"],
+    skills: ["Git", "GitHub", "VS Code", ],
   },
 ];
 

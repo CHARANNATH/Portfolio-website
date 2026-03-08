@@ -66,7 +66,7 @@ const Contact: React.FC = () => {
                     {/* Main CTA */}
                     <motion.div variants={itemVariants} className="text-center mb-12">
                         <a
-                            href="mailto:charannath.chowdary@example.com?subject=Let's%20Connect&body=Hi%20Charannath,%0D%0A%0D%0AI'd%20like%20to%20connect%20with%20you."
+                            href="mailto:.com?subject=Let's%20Connect&body=Hi%20Charannath,%0D%0A%0D%0AI'd%20like%20to%20connect%20with%20you."
                             className="inline-block px-8 py-4 bg-blue-600 dark:bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-700 dark:hover:bg-blue-600 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl text-lg"
                         >
                             Get In Touch
@@ -113,10 +113,10 @@ const Contact: React.FC = () => {
                             Or directly reach out to me at:
                         </p>
                         <a
-                            href="mailto:charannath.chowdary@example.com"
+                            href="mailto:unnamcharannathchowdary@gmail.com"
                             className="text-lg font-semibold text-blue-600 dark:text-blue-400 hover:underline"
                         >
-                            charannath.chowdary@example.com
+                            unnamcharannathchowdary@gmail.com
                         </a>
                     </motion.div>
                 </motion.div>
