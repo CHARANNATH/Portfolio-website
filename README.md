@@ -223,4 +223,4 @@ This project is open source and available under the MIT License.
 
 ## Contact
 
-For any inquiries or collaborations, feel free to reach out via email at charannath@example.com.
+For any inquiries or collaborations, feel free to reach out via email at unnamcharannathchowdary@gmail.com.
